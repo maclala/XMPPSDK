@@ -1,0 +1,29 @@
+//
+//  XMPPSDK.pch
+//  XMPPSDK
+//
+//  Created by 丁海伟 on 15-7-20.
+//  Copyright (c) 2015年 dhwheavy. All rights reserved.
+//
+
+#ifndef XMPPSDK_XMPPSDK_pch
+#define XMPPSDK_XMPPSDK_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#define NAME @"userName"
+#define PASSWORD @"password"
+#define SERVERID @"serverAddress"
+//#define LOCALHOST @"localhost"
+#define LOCALHOST @"123.57.51.210"
+//#define LOCALHOST @"123.57.51.210"
+
+#endif
+
+
+#endif
